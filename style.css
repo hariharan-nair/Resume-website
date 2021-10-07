@@ -505,3 +505,138 @@ section{
 	justify-content: space-around;
 	margin-bottom: 4rem;
 }
+
+
+/*Making the page responsive*/
+
+@media screen and (max-width:  600px){
+	body{
+		font-size: 15px;
+	}
+
+	#body-header h1{
+		font-size: 1rem;
+	}
+	#body-header a{
+		margin-right: 0;
+	}
+
+	#body-main{
+		margin-top: 6rem;
+	}
+	#skill-main{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-content: center;
+	}
+	.skill-progress{
+	
+		margin-bottom: 2rem;
+		margin-right: 0px;
+	}
+
+	#education{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		line-height: 1rem;
+	}
+
+	.education-container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		left: 0px !important;
+		margin-bottom: 1rem;
+		width: 80%;
+		padding: 1rem 1rem
+	}
+	.vertical-border{
+		visibility: hidden;
+	}
+
+	#extracurricular-main{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	#vertical-border-for-experience{
+		visibility: hidden;
+	}
+	#experience-main{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#vertical-border-for-certification{
+		visibility: hidden;
+	}
+
+	#certifiactes-main{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	h3.heading{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#experience-main p{
+		margin: 0px;
+		padding: 0;
+	}
+	#contact{
+		width: 100%;
+		
+	}
+
+	#contact-main{
+		display: flex;
+		flex-direction: column;
+		padding: 0px;
+		align-items: center;
+		height: 100%;
+	}
+	.contact-main-input{
+		padding: 0px;
+		width: 100%;
+	}
+	#message-sending{
+		width: 100%;
+	}
+
+	#contact-main button{
+		display: flex;
+		flex-direction: column;
+		padding: 0.3rem;
+		align-items: center;
+		margin-left:20%;
+		align-self: center;
+	}
+
+	#contact-details-section{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	#links {
+
+		visibility: hidden;
+	}
+	
+
+	.contact-heading-subheading{
+		width: 100%;
+
+	}
+
+
+
+}
